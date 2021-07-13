@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ca67aef2a3.js" crossorigin="anonymous"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="title">
+    <h2 class="heading1">S P L I</h2>
+    <h2 class="heading2">T T E R</h2>  
+  </div>
+
+  <div class="calculator">
+
+    <!-- First Section -->
+
+    <div class="input">
+
+      <div class="bill">
+
+        <label for="bill" class="firstTitle">Bill</label><br>
+        <input type="text" id="bill" name="bill" class="firstInput" value=0><br>
+        
+      </div>
+
+      <div class="selectTip">
+
+        <h4 class="selectTitle">Select Tip %</h4>
+
+        <button class="tipBtn five">5%</button>
+        <button class="tipBtn">10%</button>
+        <button class="tipBtn">15%</button>
+        <button class="tipBtn">25%</button>
+        <button class="tipBtn">50%</button>
+        <input type="text" id="bill" name="bill" value=Custom class="customBtn"><br> 
+
+      </div>
+      
+      <div class="noOfPeople">
+
+        <label for="bill" class="firstTitle">Number of People</label><br>
+        <input type="text" id="bill" name="bill" value=0 class="firstInput"><br>
+
+      </div>
+    </div>
+
+
+    <!-- Second Section -->
+
+
+    <div class="result">
+
+      <div class="first">
+
+        <div class="text">
+          <h4 class ="secondTitle">Tip Amount</h4>
+          <p class="person">/ person</p>
+        </div>
+
+        <div class="amount">
+          <h1>$0.00</h1>
+        </div>
+        
+      </div>
+
+      <div class="first">
+
+        <div class="text">
+          <h4 class ="secondTitle">Total</h4>
+          <p class="person">/ person</p>
+        </div>
+
+        <div class="amount">
+          <h1>$0.00</h1>
+        </div>
+
+      </div>
+
+      <div>
+        <button class="reset">Reset</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
